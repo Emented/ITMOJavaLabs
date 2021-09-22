@@ -19,7 +19,7 @@ public class arrays {
 
     public static void arrayOut(double[][] b) {
         for (double[] doubles : b) {  //go line by line
-            for (int j = 0; j < b[0].length; j++) { //go through the columns
+            for (int j = 0; j < doubles.length; j++) { //go through the columns
                 System.out.printf("%9.5f", doubles[j]); //item output
             }
             System.out.println();//line break for the sake of visually preserving the table form
